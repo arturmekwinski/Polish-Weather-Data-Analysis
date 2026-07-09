@@ -1,0 +1,26 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+ 
+# Virtual environments
+.venv/
+venv/
+env/
+ 
+# Jupyter
+.ipynb_checkpoints/
+ 
+# Generated database
+imgw.db
+*.sqlite3
+ 
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+ 
+# OS
+.DS_Store
+Thumbs.db
+ 
+ 
