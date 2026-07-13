@@ -21,8 +21,7 @@ COLUMNS = ["station_code", "station_name", "year", "month", "day",
 # Measurement columns to coerce to numbers; the rest stay as text/flags.
 NUMERIC = ["tmax", "tmin", "tmean", "tmin_ground", "precipitation", "snow_cover"]
 
-# One shared session: reuses the TCP connection across requests and sends a
-# descriptive User-Agent instead of the default python-requests one.
+# One shared session: reuses the TCP connection across requests.
 session = requests.Session()
 
 def list_zip_urls(year):
