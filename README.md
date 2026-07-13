@@ -25,10 +25,12 @@ jupyter notebook data_analysis.ipynb
 
 ## Key findings
 
-- Every station warmed: +0.05 to +0.07 °C/year (2001–2023), ~0.6 °C/decade.
+- Every station warmed: +0.05 to +0.07 °C/year (2001–2023), ~0.6 °C/decade —
+  from per-station regression on the balanced panel, not a cross-station average.
 - Temperature and precipitation follow the seasonal cycle (Pearson r = 0.91).
-- The station network shrinks over time, so the analysis uses a *balanced panel*
-  (stations present in every year) to avoid a spurious cooling artifact.
+- The station network shrinks over time and colder stations drop out, so a naive
+  all-station average drifts upward on its own. The analysis uses a *balanced panel*
+  (stations present in every year) to remove this composition artifact.
 
 ## Setup
 
